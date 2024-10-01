@@ -8,11 +8,11 @@ contract HelloWorld {
   constructor(){
   }
 
-    function sayHellow() public view returns (string memory) {
-        return data;
-    }
+  function sayHellow() public view returns (string memory) {
+      return data;
+  }
 
   function changeData(string memory newString) public {
-      data=newString;
+    data=newString;
   }
 }
